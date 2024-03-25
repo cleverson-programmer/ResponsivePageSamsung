@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <title>Samsung</title>
+</head>
+<body>
+    <header>
+        <div id="logotype">
+            <img src="images/logotype.png" alt="">
+        </div>
+        <div class="navbar" id="itens">
+            <ul>
+                <li>
+                    <a href="#">Loja</a>
+                </li>
+                <li>
+                    <a href="#">Mobile</a>
+                </li>
+                <li>
+                    <a href="#">TV&AV</a>
+                </li>
+                <li>
+                    <a href="#">Acessórios</a>
+                </li>
+                <li>
+                    <a href="#">Smarthings</a>
+                </li>
+            </ul>
+        </div>
+        <div id="search_button">
+            <a href="#">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </a>
+        </div>
+        <i id="burguer" class="fas fa-bars" onclick="clickMenu()" aria-hidden="true"></i>
+    </header>
+    <main>
+        <div class="container">
+            <div class="produto">
+              <a href="#">
+                <img src="images/br-crystal-uhd.avif" alt="Produto 1">
+                </a>
+              <h2>Smart TV 50" UHD</h2>
+                <p>R$ 2250,00 à vista</p>
+                <p>R$ 2369,00 em 12x de 197,00 sem juros</p>
+                <p class="desconto">
+                (-37%off)
+                </p>
+                <button>Comprar agora</button>
+            </div>
+            <div class="produto">
+              <a href="#">
+                <img src="images/br-galaxy-buds-fe.webp" alt="Produto 2">
+              </a>
+              <h2>Galaxy Buds FE</h2>
+              <p>R$ 494,00 à vista</p>
+              <p>R$ 549,00 em até 9x de 61,00 sem juros</p>
+              <p class="desconto">
+                (-25%off)
+              </p>
+              <button>Comprar agora</button>
+            </div>
+            <div class="produto">
+              <a href="#">
+                <img src="images/br-galaxy-s23.webp" alt="Produto 3">
+              </a>
+              <h2>Galaxy S23 5G</h2>
+              <p>R$ 3869,00 à vista</p>
+              <p>R&4299,00 em 12x de 358,00 sem juros</p>
+              <p class="desconto">
+                (-20%off)
+              </p>
+              <button>Comprar agora</button>
+            </div>
+            <div class="produto">
+              <a href="#">
+                <img src="images/br-galaxy-book2.avif" alt="Produto 4">
+              </a>
+              <h2>Galaxy Book2</h2>
+              <p>R$ 3509,00 à vista</p>
+              <p>R$3899,00 em 12x de 324,00 sem juros</p>
+              <p class="desconto">
+                (-40%off)
+              </p>
+              <button>Comprar agora</button>
+            </div>
+          </div>
+    </main>
+    <div class="video-container">
+        <video autoplay muted loop class="video-bg">
+          <source src="images/BR_HOME_E3_Main-KV_1440x640_pc.webm" type="video/mp4">
+        </video>
+        <div class="texto-sobreposto">
+          <h1>GALAXY S24 ULTRA</h1>
+          <a href="#">
+            Saiba Mais
+          </a>
+          <input type="button" value="COMPRAR">
+        </div>
+    </div>
+    <div class="tv-container">
+        <div class="texto-container">
+            <h1>Quer ajuda para escolher sua nova TV?</h1>
+            <input type="button" value="COMPRAR">
+        </div>
+        <video autoplay muted loop >
+          <source src="images/Comparativo_V2_DESK.webm" type="video/mp4">
+        </video>
+    </div>
+    <div class="title-videos">
+        <h1>
+            SAMSUNG TV PLUS
+        </h1>
+    </div>
+    <div class="final-container">
+        <div class="produto-video">
+            <video autoplay muted loop>
+                <source src="images/TV_AZUL_720x540.webm" type="video/mp4">
+            </video>
+            <div class="subtitle-videos">
+                <h2>
+                    É streaming. É grátis. É seu
+                </h2>
+                <p>
+                    Samsung TV Plus é a sua fonte de entreterimento com um toque extraordinário-tudo grátis!
+                </p>
+            </div>
+        </div>
+        <div class="produto-video">
+            <video autoplay muted loop>
+                <source src="images/MO_Icones.webm" type="video/mp4">
+            </video>
+            <div class="subtitle-videos">
+                <h2>
+                    Grátis, e já vem instalado na sua TV
+                </h2>
+                <p>
+                    Basta ligar a TV, selecionar o ícone do Samsung TV Plus e BOOM! Pronto para usar!
+                </p>
+            </div>
+        </div>
+        <div class="produto-video">
+            <video autoplay muted loop>
+                <source src="images/MO_Streaming.webm" type="video/mp4">
+            </video>
+            <div class="subtitle-videos">
+                <h2>
+                    Conteúdo de TV para a família toda!
+                </h2>
+                <p>
+                    Apaixonados por gastronomia, amantes de viagens, 
+                    viciados em esportes, gamers, fãs de notícias e muito mais!
+                </p>
+            </div>
+        </div>
+        <div class="title-tvs">
+            <h1>
+                Mais de 80 canais gratuitos com programação
+                para a família toda. Dezenas de canais de notícias,
+                 filmes, infantil, estilo de vida e mais!
+            </h1>
+        </div>
+    </div>
+    <div class="button-tvs">
+        <input type="button" value="Comprar">
+    </div>
+
+
+
+    <div class="especialist-container">
+        <div class="especialist">
+            <img src="images/Desk570304_GesielTaveira.webp" alt="">
+            <div class="opinioes">
+                <p>
+                    “O que é ser uma televisão 3 em 1. A primeira delas é que é uma televisão 4K real,
+                     ou seja, ela tem a resolução 4K e isso é muito bom porque você vai ter uma qualidade,
+                      uma definição de imagem muito superior a televisões normais, a televisores full HD.”
+                </p>
+            </div>
+        </div>
+        <div class="especialist">
+            <img src="images/Desk_570304_Tecmundo_2x.avif" alt="">
+            <div class="opinioes">
+                <p>
+                    "Praticamente tudo que você procura está aqui na loja,
+                     inclusive o aplicativo do Game Pass, que é exclusivo das TVs Samsung.
+                      Ele está presente nos dois modelos, o que os torna interessantes para quem
+                     está com pouca grana, curte jogar videogame, mas no momento a prioridade é uma TV."
+                </p>
+            </div>
+        </div>
+        <div class="especialist">
+            <img src="images/Desk57004_EnvoltologoFUNDOBRANCOIRCULAR.avif" alt="">
+            <div class="opinioes">
+                <p>
+                    “Tem jornal, tem filme, tem séries, ..... Eu particularmente não uso antena,
+                     não fico com antena conectada na minha TV e aqui eu consigo assistir TV de verdade
+                      sem necessariamente ficar preso em outros aplicativos.”
+                </p>
+            </div>
+        </div>
+        <div class="especialist">
+            <img src="images/Desk_570304_MasterTechr_Logoorizontalprincipal.avif" alt="">
+            <div class="opinioes">
+                <p>
+                    "Pra começar, todos os televisores são 4K, Smart e contam com processamento que faz
+                     o upscalling de qualquer conteúdo em tempo real para próximo dessa resolução, 
+                     além disso realçam o contraste com mais cor e profundidade."
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="line">
+    </div>
+    <div class="social">
+        <div class="icons-social">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+            <i class="fab fa-facebook" aria-hidden="true"></i>
+            <i class="fab fa-youtube" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div class="line">
+    </div>
+    <footer>
+        <p>
+            Copyright© 1995-2024 SAMSUNG. Todos os direitos reservados. <br>
+            <br>
+            SAMSUNG ELETRÔNICA DA AMAZÔNIA LTDA., com sede em Av. dos Oitis, nº 1.460, Distrito Industrial,
+            Manaus/AM, 69.007-002, inscrita no CNPJ/MF sob o nº. 00.280.273/0001-37. <br>
+            <br>
+            Esse website é melhor visualizado nas versões Microsoft Internet Explorer 11 ou superior e/ou nas
+            últimas versões dos navegadores Google Chrome e Mozilla Firefox. <br>
+            <br>
+            Formas de pagamento aceitas: Pix, Cartão de crédito (Visa, MasterCard, Elo, American Express,
+            Diners Club, Hipercard, Elo), Cartão Samsung Itaú, Boleto bancário, Samsung Pay e Picpay. <br>
+        </p>
+    </footer>
+</body>
+<script>
+    function clickMenu() {
+    var menu = document.getElementById("itens");
+    menu.style.display === "none" ? menu.style.display = "block" : menu.style.display = "none";
+    }
+</script>
+</html>
